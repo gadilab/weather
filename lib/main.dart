@@ -85,7 +85,7 @@ class _WeatherHomeScreenState extends State<MyApp> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: const Text('Cari Kota'),
+          title: const Text('Cari Kota anda'),
           content: TextField(
             controller: _searchController,
             decoration: const InputDecoration(
